@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./countDown.css">
+    <title>Count Down</title>
+</head>
+
+<body>
+    <div class='main_box'>
+        <div class="countdown">
+            <img src="https://media.cntraveler.com/photos/5d0bd21ca31871df4ddb1ca1/master/pass/Idaho_GettyImages-134557388.jpg"
+                alt="Image Loading..">
+            <div id="title">JOURNEY BEGINS IN</div>
+
+            <div class="start">
+
+                <div class='time'>
+                    <div class='in_time'>
+                        <p id="days">00</p>
+                        <h4>Days</h4>
+                    </div>
+                    <div class='in_time'>
+                        <p id="hours">00</p>
+                        <h4>Hours</h4>
+                    </div>
+                    <div class='in_tme' id='bday'>
+                        <p id="from_user"></p>
+                    </div>
+                    <div class='in_time'>
+                        <p id="minutes">00</p>
+                        <h4>Minutes</h4>
+                    </div>
+
+                    <div class='in_time'>
+                        <p id="seconds">00</p>
+                        <h4>Seconds</h4>
+                    </div>
+
+
+                </div>
+                <p id="quote">Life is a journey that must be traveled no matter how bad the roads and accommodations.
+                </p>
+
+
+                <select name="" id="events">
+                    <option value="none">SELECT EVENT</option>
+                    <option value="new_year">NEW YEAR</option>
+                    <option value="birthday">BIRTHDAY</option>
+                    <option value="anniversary">ANNIVERSARY</option>
+                </select>
+                <br>
+                <div class="start_1">
+                    <input type="date" placeholder="Select Date">
+                    <br>
+                    <button id="start_count">Click Enter Button</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./countDown.js"></script>
+</body>
+
+</html>
